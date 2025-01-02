@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "63010790267",
+    "project_id": "dz16firebaseauthentication1",
+    "storage_bucket": "dz16firebaseauthentication1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63010790267:android:3bdacc60a404295ce23bde",
+        "android_client_info": {
+          "package_name": "com.example.dz16firebaseauthentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwhGZgOZQngK9TpeuK_xTe9pNLWQgd-MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63010790267:android:307eea6c152a82ffe23bde",
+        "android_client_info": {
+          "package_name": "com.example.dz16firebaseauthentication1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwhGZgOZQngK9TpeuK_xTe9pNLWQgd-MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
