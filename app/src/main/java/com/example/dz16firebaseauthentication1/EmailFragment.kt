@@ -9,17 +9,20 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.dz16firebaseauthentication1.databinding.FragmentEmailBinding
 
 class EmailFragment : Fragment() {
+    //Обьявляем переменные
     private var _binding: FragmentEmailBinding? = null
     private val binding get() = _binding!!
-    private lateinit var parent: AppCompatActivity
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         _binding = FragmentEmailBinding.inflate(inflater, container, false)
-        parent = activity as AppCompatActivity
+
+
+        //Обявляем Адаптер для просмотра почты
         val adapter = EmailAdapter(requireContext())
         adapter.updateList(Email.emailList)
         binding.recycleView.adapter = adapter
@@ -28,7 +31,6 @@ class EmailFragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        parent.setSupportActionBar(binding.toolbar)
 
     }
 

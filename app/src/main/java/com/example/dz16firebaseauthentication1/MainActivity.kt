@@ -12,9 +12,9 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.dz16firebaseauthentication1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    //Обьявляем переменные
     private lateinit var toolbarMain:Toolbar
     private lateinit var binding: ActivityMainBinding
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,11 +25,10 @@ class MainActivity : AppCompatActivity() {
         toolbarMain = findViewById(R.id.toolbarMain)
         setSupportActionBar(toolbarMain)
         title = " Электронная почта"
-        toolbarMain.subtitle = " Версия 1.Главная страница"
+        toolbarMain.subtitle = " Версия 1.FirebaseAuthentication"
         toolbarMain.setLogo(R.drawable.diplomamini)
         //supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         //toolbarMain.setNavigationOnClickListener { onBackPressed() }
-
 
     }
 
